@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML5 Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(168, 197, 221);
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 3;
+            padding: 20px;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background: #b2dfe0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 1;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introduction on HTML5</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Welcome to this Website</h2>
+                <p> HTML5 introduced several new elements to improve the structure and semantics of web documents. Some of the key HTML5 elements include: <br>1. `header`: Represents introductory content, usually containing navigation links, logos, and headings.
+                    <br>2. `nav`: Defines a section of navigation links.
+                    <br>3. `ection`: Represents a thematic grouping of content, typically with a heading.
+                    <br>4. `article`: Represents a self-contained piece of content that could be distributed and reused independently.
+                    <br>5. `aside`: Represents content that is tangentially related to the content around it, such as sidebars or pull quotes.
+                    <br>6. `footer`: Represents a footer for the nearest sectioning content or the nearest ancestor sectioning content.
+                    <br>7. `main`: Specifies the main content of the document.
+                    <br>8. `figure` and `figcaption`: Used together to represent self-contained content, such as images, diagrams, or code snippets, with optional captions.
+                    <br>These elements help developers structure their web documents more semantically, making it easier for search engines, screen readers, and other tools to understand the content and improve accessibility.</p>
+                <p>In this example, we have a header with a navigation bar, a main section with an article, a sidebar with related links, and a footer with contact information. This structure helps organize the content in a meaningful way.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">https://www.geeksforgeeks.org/html5-introduction/</a></li>
+                <li><a href="#">https://www.w3schools.com/html/</a></li>
+                <li><a href="#">https://www.tutorialspoint.com/html5/index.htm</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contact us: info@html.com</p>
+    </footer>
+</body>
+</html>

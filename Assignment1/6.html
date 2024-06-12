@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 50vh;
+            background-color: rgb(226, 226, 218);
+        }
+        header {
+            background: #4a4baabd;
+            color: #aaa7a786;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #3e0d5f;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex: 5;
+            padding: 1px;
+        }
+        main {
+            flex: 3;
+            padding: 10px;
+        }
+        aside {
+            flex: 1;
+            padding: 5px;
+            background: #f7d4d4;
+        }
+        footer {
+            background: #1a0d0d;
+            color: #f3f1ff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <article>
+                <h1>Welcome to My Website</h1>
+                <p> Semantic HTML refers to the use of HTML tags that provide meaning to the content they enclose, rather than just defining its appearance. This approach enhances both the readability and accessibility of web pages. Tags like header, footer, article, section, and nav indicate the purpose of different sections of a web page, making it easier for developers to understand the structure of the document and for browsers and assistive technologies to interpret the content correctly.</p>
+
+                <p> The benefits of semantic HTML extend beyond just clarity and accessibility. Search engines use the structure provided by semantic tags to better understand the content of web pages, which can improve SEO (Search Engine Optimization). Additionally, semantic HTML helps in building more maintainable and scalable code, as the intention behind each section is clear. This practice ultimately leads to a more consistent and efficient web development process, fostering a web environment that is user-friendly for both humans and machines.</p>
+            </article>
+        </main>
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#"> https://en.wikipedia.org/wiki/Semantic_HTML</a></li>
+                <li><a href="#"> https://www.w3schools.com/html/html5_semantic_elements.asp</a></li>
+                <li><a href="#"> https://www.freecodecamp.org/news/semantic-html5-elements</a></li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>Contact us: info@html.com</p>
+    </footer>
+</body>
+</html>
